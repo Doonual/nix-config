@@ -153,6 +153,11 @@ in
 		
 		# programs.git.includes = [{ path = "./git-config"; }];
 		# xdg.configFile."git/config".source = "./git-config";
+
+		# To get git credentials working with GitHub, copy your public ssh key into GitHub
+		# You can generate this key with
+		# ssh-keygen -t ed25519- C "you@example.com"
+
 		xdg.configFile."git/config".source = ./git-config;
 		
 		
