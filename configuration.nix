@@ -158,7 +158,7 @@ in
 		# You can generate this key with
 		# ssh-keygen -t ed25519- C "you@example.com"
 
-		xdg.configFile."git/config".source = ./git-config;
+		xdg.configFile."git/config".source = ./credentials/git;
 		
 		
 		
